@@ -2,3 +2,75 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+START
+
+SET Customer Location as Customer_Loc
+SET Destination Location as Destination
+
+While Destination is north of Customer_Loc  
+  Move Customer_Loc North
+While Destination is south of Customer_Loc
+  Move Customer_Loc South
+While Destination is east of Customer_Loc
+  Move Customer_Loc East
+While Destination is west of Customer_Loc
+  Move Customer_Loc West
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Start
+  SET SET_LOC (x, y)
+  SET CUST_LOC 
+
+
+  While SET_LOC.y is not equal to CUST_LOC.y
+    If SET_LOC.y is less than CUST_LOC.y
+      Move North
+      Add 1 to SET_LOC.y
+    Else
+      Move South
+      Subtract 1 from SET_LOC.y
+    Print "Current location: ", SET_LOC
+
+  While SET_LOC.x is not equal to CUST_LOC.x
+    If SET_LOC.x < CUST_LOC.x
+      Move East
+      Add 1  SET_LOC.x
+    Else
+      Move West
+      Subtract 1 SET_LOC.x
+    Print "Current location: ", SET_LOC
+
+"You have arrived at the target location: ", CUST_LOC
+End

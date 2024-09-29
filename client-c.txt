@@ -2,3 +2,21 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+Start
+
+SET the number of all Items to All_Items
+SET maximum number of Items box can hold as Box_Capacity
+SET Current_Item_Number to 1
+
+While Current_Item_Number is less or equal to All_Items
+  SET a new Box as Current_Box
+  SET Item_in_box to 0
+  WHILE Item_in_box is less than Box_Capacity
+    Add Item_in_box to Current_Box
+    Add 1 to Item_in_box
+    Add 1 to Current_Item_Number
+  #Box Capacity Reached
+  Get new Box
+  
+END

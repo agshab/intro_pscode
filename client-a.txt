@@ -2,3 +2,28 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+
+START
+SET a random number NUM between 1 and 10 
+GET Input of number from User
+
+IF number matches random number NUM
+    Display "Correct Guess"
+    END
+ELSE
+    Display "Try Again! You have 2 more tries."
+    GET Input of number from User
+
+IF number matches random number NUM
+    Display "Correct Guess"
+    END
+ELSE
+    Display "Try Again! You have 1 more tries."
+    GET Input of number from User
+
+IF number matches random number NUM
+    Display "Correct Guess"
+    END
+ELSE
+    Display "You Failed to guess the correct number. The correct number is NUM."
+END
